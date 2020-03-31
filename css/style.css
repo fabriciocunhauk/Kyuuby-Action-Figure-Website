@@ -1,0 +1,73 @@
+body {
+    background-color:gray;
+}
+
+.title {
+    text-align: center;
+    background-color:black; 
+    color: orange;
+    padding-bottom: 20px;
+}
+
+/* navbar */
+
+
+.nav-item-suport {
+    padding-left: 750px;
+}   
+
+
+/* Testimonials */
+
+.colored-section {
+    height:160px;
+    padding-bottom: 100px;
+}
+
+.testimonial-image {
+    height: 400px;
+}
+
+.testimonial-image {
+    background-color: grey;
+}
+
+/* Carrousel-arrow */
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.site-header {
+    margin-bottom: 400px;
+}
+
+.product-position {
+   margin-top: 400px;
+}
+
+.product-align {
+    
+}
+
+/* Pricing section */
+
+.white-section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: gray;
+}
+
+.pricing-column {
+    
+}
