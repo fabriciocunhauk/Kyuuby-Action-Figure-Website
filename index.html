@@ -28,35 +28,45 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-link">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-link">
               <a class="nav-link" href="#">Product</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-link">
               <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-link">
               <a class="nav-link" href="#">Pricing</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Best Sellers
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item-suport">
-              <a class="nav-link" href="#">Support</a>
-            </li>
+          </li>
+          <li class="nav-link">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Best Sellers
+            </a>           
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Science Fiction</a>
+              <a class="dropdown-item" href="#">Fantasy</a>
+              <a class="dropdown-item" href="#">Gaming</a>
+            </div> 
+          </li>  
             <li class="nav-item-cart">
-              <a class="nav-link" href="#">Cart</a>
-            </li>
-          </ul>
+              <a class="nav-link" href="#">Cart <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="32" height="32"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#ecf0f1"><path d="M26.875,37.625c-2.967,0 -5.375,2.408 -5.375,5.375c0,2.967 2.408,5.375 5.375,5.375h11.92578l4.03125,16.125h92.31982l-10.25659,37.625h-55.02026v10.75h48.375h6.63477c4.84825,0 9.09282,-3.24977 10.37207,-7.92602l13.9729,-51.19898h-98.00977l-1.99463,-7.97852c-1.19325,-4.78375 -5.49031,-8.14648 -10.42456,-8.14648zM118.25,112.875c-8.84171,0 -16.125,7.28329 -16.125,16.125c0,8.84171 7.28329,16.125 16.125,16.125c8.84171,0 16.125,-7.28329 16.125,-16.125c0,-8.84171 -7.28329,-16.125 -16.125,-16.125zM69.875,112.875c-8.84171,0 -16.125,7.28329 -16.125,16.125c0,8.84171 7.28329,16.125 16.125,16.125c8.84171,0 16.125,-7.28329 16.125,-16.125c0,-8.84171 -7.28329,-16.125 -16.125,-16.125zM32.25,75.25v10.75h43v-10.75zM32.25,96.75v10.75h26.875v-10.75zM69.875,123.625c3.03704,0 5.375,2.33796 5.375,5.375c0,3.03704 -2.33796,5.375 -5.375,5.375c-3.03704,0 -5.375,-2.33796 -5.375,-5.375c0,-3.03704 2.33796,-5.375 5.375,-5.375zM118.25,123.625c3.03704,0 5.375,2.33796 5.375,5.375c0,3.03704 -2.33796,5.375 -5.375,5.375c-3.03704,0 -5.375,-2.33796 -5.375,-5.375c0,-3.03704 2.33796,-5.375 5.375,-5.375z"></path></g><path d="" fill="none"></path></g></svg></a>
+            </li>           
+        </ul> 
+
+        <div class="search-bar">
+          <input type="text" id="myInput" onkeyup="mYFunction()" placeholder="Search Action Figure">
+          <button type="submit">Search</button>
+        </div>          
         </div>
       </nav>
 
