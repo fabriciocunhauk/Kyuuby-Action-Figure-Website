@@ -1,3 +1,3 @@
-# Kyuuby-Action-Figure-Website.
+# Kyuuby
 
-Action figures shopping Website.
+ Kyuuby is a website for people looking to buy action figures.
