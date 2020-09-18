@@ -12,15 +12,17 @@ body {
     text-align: center;
     background-color:black; 
     color: orange;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /* navbar */
-
-
-.nav-item-suport {
-    padding-left: 750px;
+.nav-item-cart {
+    padding-left: 400px;
 }   
+
+.search-bar {
+    margin-left: 10px;
+}
 
 .iner-text {
     color: orange;
@@ -73,8 +75,10 @@ body {
    background-color: gray;
 }
 
-.product-align {
-    
+/* Product section*/
+
+.main-section {
+    padding-top: 300px;
 }
 
 /* Pricing section */
@@ -84,8 +88,4 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: gray;
-}
-
-.pricing-column {
-    
 }
