@@ -8,31 +8,29 @@ body {
     background-color:gray;
 }
 
+h1 {
+    margin-left: 60px;
+    color: orange;
+}
+
 .title {
     text-align: center;
-    background-color:black; 
-    color: orange;
-    padding-bottom: 40px;
+   
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+.my-cart {
+    margin-left: 30%;
 }
 
 /* navbar */
-.nav-item-cart {
-    padding-left: 400px;
-}   
 
-.search-bar {
-    margin-left: 10px;
-}
+/* Carrousel-arrow */
 
-.iner-text {
-    color: orange;
-}
-
-/* Testimonials */
-
-.colored-section {
-    height:160px;
-    padding-bottom: 100px;
+.carousel-section {
+    height:80px;
+    padding-bottom: 80px;
 }
 
 .carousel-image {
@@ -40,17 +38,6 @@ body {
     height: 400px;
     width: 500px;
 }
-
-.card {
-    margin-bottom: 10px;
-}
-
-.card-img {
-    width: 400px;
-    height: 300px;
-}
-
-/* Carrousel-arrow */
 
 .carousel-control-next:after
 {
@@ -65,27 +52,70 @@ body {
   color: black;
 }
 
-.site-header {
-    margin-bottom: 400px;
+/* Product section*/
+.card {
+    margin-bottom: 30px;
+    width: 18rem;
+    box-shadow: 10px 10px 30px black;
 }
 
-.product-position {
+.card-img {
+    width: 400px;
+    height: 300px;
+    
+    transition: all .4s ease;
+}
+
+.card-img:hover {
+    box-sizing: border-box;
+    transform: translate3d(0, -2px, 0) scale(1.5);
+}
+
+.product-cards {
    margin-top: 400px;
    padding-top: 20px;
-   background-color: gray;
+   position: relative;
 }
 
-/* Product section*/
-
-.main-section {
-    padding-top: 300px;
+.product-cards:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    background-image: url("../images/marvel-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 /* Pricing section */
 
-.white-section {
+.offer-box-title {
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: orange;
+}
+
+.offer-boxes {
+    padding: 40px;
+    padding-left: 9%;
     background-color: gray;
+}
+
+/* Footer */
+
+.footer-style {
+    padding: 0 60px;
+    background-color: black;
+    color: orange;
 }
