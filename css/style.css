@@ -15,7 +15,6 @@ h1 {
 
 .title {
     text-align: center;
-   
     background-position: center;
     padding-bottom: 100px;
 }
@@ -53,22 +52,22 @@ h1 {
 }
 
 /* Product section*/
+
 .card {
-    margin-bottom: 30px;
-    width: 18rem;
+    margin: 30px auto;
+    width: 16rem;
     box-shadow: 10px 10px 30px black;
 }
 
 .card-img {
     width: 400px;
     height: 300px;
-    
     transition: all .4s ease;
 }
 
 .card-img:hover {
     box-sizing: border-box;
-    transform: translate3d(0, -2px, 0) scale(1.5);
+    transform: translate3d(0, -2px, 0) scale(1.2);
 }
 
 .product-cards {
